@@ -1,10 +1,12 @@
 import {experiencias} from '@/app/lib/data';
 import Card from '../ui/card';
+import TitleSection from '../ui/titlesection';
 
 export default function Experiencia(){
     return (
         <>
-            <h2>Experiências</h2>
+            <TitleSection title='Experiências' />
+            
             <div className='row g-3'>
                 {
                     experiencias.map((experiencia, i)=>{

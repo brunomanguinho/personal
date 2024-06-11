@@ -1,10 +1,11 @@
 import {formacoes} from "@/app/lib/data";
 import Card from "../ui/card";
+import TitleSection from "../ui/titlesection";
 
 export default function Formacao(){
     return (
         <>
-            <h2>Formações</h2>
+            <TitleSection title="Formações" />
 
             <div className='row g-3'>
                 {
