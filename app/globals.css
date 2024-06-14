@@ -2,7 +2,44 @@
   text-align: justify;
 }
 
-.n-link{
-  background-color: black;
-  color: black;
+.career-img{
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.avatar{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+@media screen and (max-width: 1322px) {
+  .career-img{
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+@media screen and (max-width: 998px) {
+  .career-img{
+    max-width: 125px;
+    max-height: 125px;
+  }
+
+  .career-content h3{
+    font-size: x-large;
+  }
+
+  .career-content p{
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .career-content{
+    padding-top: 16px;
+    text-align: right;
+  }
+  
+}
+  
 }

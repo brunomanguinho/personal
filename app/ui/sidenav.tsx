@@ -19,7 +19,7 @@ export default function SideNav(){
                         src="/avatar.jpg"
                         width={1000}
                         height={900}
-                        className="w-100 h-100 rounded"
+                        className="rounded img-fluid"
                         alt="avatar"
                     />
                 </div>

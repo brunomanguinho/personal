@@ -65,4 +65,12 @@ const propostas =
     {descricao: `Inglês Intermediário.`}
 ]
 
-module.exports = {experiencias, formacoes, propostas};
+const carreiras =[
+    {setor: "Saúde", img: "/imgs/saude.jpg", descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
+    {setor: "Mineração", img: "/imgs/mineracao.png", descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
+    {setor: "Industrial", img: "/imgs/industria.png", descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
+    {setor: "Agrícola", img: "/imgs/agricultura.png", descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
+    
+]
+
+module.exports = {experiencias, formacoes, propostas, carreiras};
