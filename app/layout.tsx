@@ -31,11 +31,11 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <div className='container'>
           <div className="row pt-3">  
-            <div className='col-md-6 border w-25'>
+            <div className='col-md-6 border-right sidemenu w-25'>
               <SideNav />  
             </div>
             
-            <div className="col-md-6 border w-75">
+            <div className="col-md-6 sidecontent w-75">
               <div className="row">
                 {/* <div className="col-12">
                 <Image 

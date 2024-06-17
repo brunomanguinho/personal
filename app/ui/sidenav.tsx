@@ -13,18 +13,18 @@ export default function SideNav(){
 
     return(
         <>
-            
-                <div>
+            <div className="row">
+                <div className="col-md-12 mb-2 text-center">
                     <Image 
                         src="/avatar.jpg"
-                        width={1000}
-                        height={900}
+                        width={250}
+                        height={250}
                         className="rounded img-fluid"
                         alt="avatar"
                     />
                 </div>
-                <div>
-                    <nav className="nav flex-column">
+                <div className="col-md-12">
+                    <div className="row">
                         {links.map((link)=>{
                             return (
                             <NavLink 
@@ -33,9 +33,9 @@ export default function SideNav(){
                                 value={link.value}
                             />);
                         })}
-                    </nav>
+                    </div>
                 </div>
-            
+            </div>
         </>
     );
 }

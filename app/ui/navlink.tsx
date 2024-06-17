@@ -9,12 +9,16 @@ export default function NavLink(
     })
 {
     return (
-        <Link 
-            key={value}
-            href={href}
-            className="nav-link"
-        >      
-            {value}
-        </Link>
+        
+        <div className="col-3 col-md-12 border link-container rounded">
+            <Link 
+                key={value}
+                href={href}
+                className="menu-link" 
+            >      
+                {value}
+            </Link>
+        </div>
+
     )
 }
