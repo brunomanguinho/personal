@@ -1,3 +1,7 @@
+ul{
+  list-style-type: none;
+}
+
 .t-justify{
   text-align: justify;
 }

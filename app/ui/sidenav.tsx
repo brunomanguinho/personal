@@ -3,12 +3,13 @@ import Image from "next/image";
 import NavLink from "./navlink";
 
 export default function SideNav(){
+    
     const links = 
         [
             {keyValue: "Home", href: "/", value: "Home"},
             {keyValue: "Formacao", href: "/formacoes", value: "Formação"},
             {keyValue: "Experiencias", href: "/experiencias", value: "Experiências"},
-            {keyValue: "Propostas", href: "/propostas", value: "Propostas"}
+            {keyValue: "Expertise", href: "/expertise", value: "Expertise"}
         ]
 
     return(

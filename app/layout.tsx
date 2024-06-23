@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Hello World</title>
+        <title>Emicles B. S. Manguinho Filho</title>
       </head>
       
       <body className={`${inter.className} antialiased`}>
@@ -36,20 +36,14 @@ export default function RootLayout({
             </div>
             
             <div className="col-md-6 sidecontent w-75">
-              <div className="row">
-                {/* <div className="col-12">
-                <Image 
-                    src="/home-top.jpg"
-                    width={1000}
-                    height={250}
-                    alt="home-image"
-                    className="rounded w-100 mh-50"
-                  />
-                </div> */}
-                <div className="text-start mt-3">
+                <div className="row text-start mt-3">
+                  <div className='text-center mb-3'>
+                    <h1 className={`${playfair.className}`}>EMICLES B. S. MANGUINHO FILHO</h1>
+                    <h4>Economista, Alanista de Custo, Controller Financeiro</h4>
+                  </div>
+                  
                   {children}
                 </div>
-              </div>
             </div>
           </div>
       

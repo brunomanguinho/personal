@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <TitleSection title='Carreira'/>
+      <TitleSection title='Ramos de Atuação'/>
       {
         carreiras.map((carreira, i)=>{
           return(
