@@ -4,6 +4,8 @@ import TitleSection from '../ui/titlesection';
 import Link from 'next/link';
 
 export default function Experiencia(){
+    
+
     return (
         <>
             <TitleSection title='Experiências' />
@@ -30,6 +32,7 @@ export default function Experiencia(){
                                                 ' a ' + experiencia.fim.toLocaleDateString("pt-BR", {year: "numeric", month: "numeric"})
                                             }
                                         resume={experiencia.descricao[0].substring(0, 100)}
+                                        
                                     />
                                 </Link>
                             </div>

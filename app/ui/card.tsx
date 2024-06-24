@@ -17,14 +17,10 @@ export default function Card(
                 <p className="card-text">{content}</p>
                 {(resume?.toString() === "" || resume == null) ? <></> : 
                     <div className="p-1 text-justify">
-                        <small >{resume}
+                        <small>{resume}
                                 <span className="text-decoration-underline fw-bolder">...mais</span> 
                         </small>
                     </div> }
-                
-                
-                {/* <a href="#" className="card-link">Card link</a>
-                <a href="#" className="card-link">Another link</a> */}
             </div>
         </div>
     )

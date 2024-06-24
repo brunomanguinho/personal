@@ -1,5 +1,4 @@
 'use client'
-
 import { useSearchParams } from "next/navigation";
 import { experiencias } from "@/app/lib/data";
 import { playfair } from "@/app/ui/fonts";
@@ -12,7 +11,6 @@ function Search(){
 
 export default function Descricao(){
     const experiencia = experiencias.find((experiencia)=>experiencia.id.toString() == Search());
-
 
     return(
         <Suspense>
