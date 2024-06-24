@@ -3,6 +3,7 @@
 import { useSearchParams } from "next/navigation";
 import { experiencias } from "@/app/lib/data";
 import { playfair } from "@/app/ui/fonts";
+import { Suspense } from "react";
 
 function Search(){
     const searchParams = useSearchParams();
@@ -11,10 +12,10 @@ function Search(){
 
 export default function Descricao(){
     const experiencia = experiencias.find((experiencia)=>experiencia.id.toString() == Search());
-    
+
 
     return(
-        <>
+        <Suspense>
             <div className={`${playfair.className} antialiased`}>
                 <div className="row g-3">
                     <h2>Experiência Profissional</h2>
@@ -32,8 +33,6 @@ export default function Descricao(){
                     )
                 })}
             </div>
-            
-            
-        </>
+        </Suspense>
     )
 }
