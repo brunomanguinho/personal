@@ -38,8 +38,9 @@ export default function RootLayout({
             <div className="col-md-6 sidecontent w-75">
                 <div className="row text-start mt-3">
                   <div className='text-center mb-3'>
-                    <h1 className={`${playfair.className}`}>EMICLES B. S. MANGUINHO FILHO</h1>
+                    <h1 className={`${playfair.className} mt-3`}>EMICLES B. S. MANGUINHO FILHO</h1>
                     <h4>Economista, Alanista de Custo, Controller Financeiro</h4>
+                    <hr />
                   </div>
                   
                   {children}
