@@ -6,14 +6,12 @@ import { Suspense } from "react";
 
 function Search(){
     const searchParams = useSearchParams();
-    return searchParams.get('id');
-}
+    const id = searchParams.get('id');
 
-export default function Descricao(){
-    const experiencia = experiencias.find((experiencia)=>experiencia.id.toString() == Search());
+    const experiencia = experiencias.find((experiencia)=>experiencia.id.toString() == id);
 
     return(
-        <Suspense>
+        <>
             <div className={`${playfair.className} antialiased`}>
                 <div className="row g-3">
                     <h2>Experiência Profissional</h2>
@@ -31,6 +29,14 @@ export default function Descricao(){
                     )
                 })}
             </div>
-        </Suspense>
+        </>
+    )    
+}
+
+export default function Descricao(){
+    return(
+        <Suspense>
+            <Search />
+        </Suspense>   
     )
 }

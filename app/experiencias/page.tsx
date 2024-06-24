@@ -4,8 +4,6 @@ import TitleSection from '../ui/titlesection';
 import Link from 'next/link';
 
 export default function Experiencia(){
-    
-
     return (
         <>
             <TitleSection title='Experiências' />
