@@ -11,6 +11,7 @@ function Search(){
 
 export default function Descricao(){
     const experiencia = experiencias.find((experiencia)=>experiencia.id.toString() == Search());
+    
 
     return(
         <>
