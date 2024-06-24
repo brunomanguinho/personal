@@ -4,11 +4,13 @@ import { useSearchParams } from "next/navigation";
 import { experiencias } from "@/app/lib/data";
 import { playfair } from "@/app/ui/fonts";
 
-export default function Descricao(){
+function Search(){
     const searchParams = useSearchParams();
-    let id = searchParams.get('id');
-    
-    const experiencia = experiencias.find((experiencia)=>experiencia.id.toString() == id);
+    return searchParams.get('id');
+}
+
+export default function Descricao(){
+    const experiencia = experiencias.find((experiencia)=>experiencia.id.toString() == Search());
 
     return(
         <>
