@@ -39,7 +39,7 @@ export default function RootLayout({
                 <div className="row text-start mt-3">
                   <div className='text-center mb-3'>
                     <h1 className={`${playfair.className} mt-3`}>EMICLES B. S. MANGUINHO FILHO</h1>
-                    <h4>Economista, Alanista de Custo, Controller Financeiro</h4>
+                    <h4>Economista, Analista de Custo, Controller Financeiro</h4>
                     <hr />
                   </div>
                   
